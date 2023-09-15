@@ -1,11 +1,13 @@
+import Welcome from "./components/Welcome";
 
-import './App.css'
+import "./App.css";
 
 function App() {
 
   return (
-    <div className="app">
-      <h1>Quizz App</h1>
+    <div className="App">
+      <h1> Programming Trivia Quiz </h1>
+      <Welcome />
     </div>    
   )
 }
