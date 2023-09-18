@@ -13,7 +13,8 @@ const Option = ({ option, answer, selectOption }) => {
     } ${
         quizState.answerSelected && option !== answer ? 'wrong' : ''
     }`}
-    onClick={() => selectOption()}>
+    onClick={() => selectOption()}
+    >
       <p> { option } </p>
     </div>
   );
