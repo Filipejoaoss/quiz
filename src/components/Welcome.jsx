@@ -7,8 +7,6 @@ import "./Welcome.css";
 
 function Welcome() {
   const [quizState, dispatch] = useContext(QuizContext);
-
-  console.log(quizState);
   
   return (
     <div id="welcome">
