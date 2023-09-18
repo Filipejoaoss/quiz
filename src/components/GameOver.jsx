@@ -14,7 +14,7 @@ const GameOver = () => {
       <p>Score: { quizState.score } </p>
       <p>You got { quizState.score } out of { quizState.questions.length } {" "} questions right!</p>
       <img src={WellDone} alt="Game over" />
-      <button>Restart</button>
+      <button onClick={() => dispatch({type: "NEW_GAME"})}>Restart</button>
     </div>
   );
 };
